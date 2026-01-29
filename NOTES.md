@@ -84,18 +84,34 @@
    - 辨識不同說話者
    - 使用 pyannote 模型
 
-### 📱 執行方式
+### 📱 Barry 起床後執行步驟
 
-Xcode 設定完成後：
+**1. 完成 Xcode 設定**
+```bash
+# 打開 Xcode 並完成額外元件安裝
+open /Applications/Xcode.app
+# 按照提示安裝元件
+```
 
+**2. 設定 Xcode 開發者工具**
+```bash
+sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+```
+
+**3. 打開專案**
 ```bash
 open /Users/barryc/clawd/projects/live-translator-ios/LiveTranslator.xcodeproj
 ```
 
-然後：
-1. 選擇 iPhone 實機
-2. Signing & Capabilities → 選擇 Team
-3. Cmd + R 執行
+**4. 在 Xcode 中:**
+- 選擇你的 **iPhone** 作為執行目標（連接實機）
+- 點選專案 → **Signing & Capabilities** → 選擇你的 **Team**
+- 按 **Cmd + R** 執行
+
+**5. 在 iPhone 上:**
+- 允許麥克風權限
+- 允許語音辨識權限
+- 開始測試！
 
 ### 🔑 注意事項
 
