@@ -12,6 +12,8 @@
 		A1000005243F5A0000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1000006243F5A0000000001 /* Assets.xcassets */; };
 		A1000007243F5A0000000001 /* SpeechRecognitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000008243F5A0000000001 /* SpeechRecognitionManager.swift */; };
 		A1000009243F5A0000000001 /* TranslationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000A243F5A0000000001 /* TranslationManager.swift */; };
+		A100001D243F5A0000000001 /* HistoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100001E243F5A0000000001 /* HistoryManager.swift */; };
+		A100001F243F5A0000000001 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000020243F5A0000000001 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A1000008243F5A0000000001 /* SpeechRecognitionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognitionManager.swift; sourceTree = "<group>"; };
 		A100000A243F5A0000000001 /* TranslationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationManager.swift; sourceTree = "<group>"; };
 		A100000C243F5A0000000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A100001E243F5A0000000001 /* HistoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryManager.swift; sourceTree = "<group>"; };
+		A1000020243F5A0000000001 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				A1000004243F5A0000000001 /* ContentView.swift */,
+				A1000020243F5A0000000001 /* SettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -76,6 +81,7 @@
 			children = (
 				A1000008243F5A0000000001 /* SpeechRecognitionManager.swift */,
 				A100000A243F5A0000000001 /* TranslationManager.swift */,
+				A100001E243F5A0000000001 /* HistoryManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -154,6 +160,8 @@
 				A1000003243F5A0000000001 /* ContentView.swift in Sources */,
 				A1000007243F5A0000000001 /* SpeechRecognitionManager.swift in Sources */,
 				A1000009243F5A0000000001 /* TranslationManager.swift in Sources */,
+				A100001D243F5A0000000001 /* HistoryManager.swift in Sources */,
+				A100001F243F5A0000000001 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
