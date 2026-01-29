@@ -24,11 +24,31 @@
    | Speech-Translate | 631 | Whisper + 免費翻譯 | 可自訂字幕視窗、批次處理 |
    | Synthalingua | 351 | 即時翻譯 + 字幕 | 人聲隔離 |
 
+### ✅ 凌晨新增功能 (02:10)
+
+1. **HistoryManager.swift**
+   - 會議記錄管理
+   - 匯出 txt/csv
+   - 會議時間計算
+   - 字數統計
+
+2. **SettingsView.swift**
+   - 字體大小調整 (14-40pt)
+   - 自動捲動開關
+   - 保持螢幕常亮
+   - 顯示時間戳記
+
+3. **ContentView 改進**
+   - 新增設定、歷史記錄按鈕
+   - 會議計時器顯示
+   - 匯出功能 sheet
+   - 翻譯防抖動機制
+
 ### 🔧 待處理
 
-1. **Xcode 首次設定**
-   - 需要 Barry 完成 Xcode 額外元件安裝
-   - 安裝後才能編譯和測試
+1. **Xcode 首次設定** (需要 Barry)
+   - 執行: `sudo xcode-select -s /Applications/Xcode.app/Contents/Developer`
+   - 或打開 Xcode 讓它自動安裝元件
 
 2. **測試項目**
    - [ ] 實機測試語音辨識準確度
